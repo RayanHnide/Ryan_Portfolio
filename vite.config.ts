@@ -7,11 +7,13 @@ dotenv.config();
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base:'/Ryan_Portfolio',
   build: {
     // ...
     rollupOptions: {
       // ...
       plugins: [
+          
         // ...
         gzipPlugin({
           // Wähle die Dateitypen aus, die du komprimieren möchtest

@@ -8,7 +8,7 @@ import LanguageContextProvider from "./context/language-context";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter  basename='/Ryan_Portfolio'>
         <ThemeContextProvider>
           <LanguageContextProvider>
             <ActiveSectionContextProvider>
