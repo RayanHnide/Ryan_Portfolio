@@ -13,7 +13,7 @@ export default defineConfig({
     rollupOptions: {
       // ...
       plugins: [
-          
+
         // ...
         gzipPlugin({
           // Wähle die Dateitypen aus, die du komprimieren möchtest

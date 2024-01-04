@@ -358,7 +358,7 @@ export const sideBarLeftSocials = [
     altimgname: "linkedin",
   },
   {
-    link: "https://github.com/",
+    link: "https://github.com/rayanHnide-FE1",
     icon: FiGithub,
     altimgname: "github",
   },
